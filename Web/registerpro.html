@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Pembelian YBike</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+
+        <div id = "navbar">
+            <a href="index.html">
+                <div class="navmenu">
+                    Home
+                </div>
+            </a>
+            
+            <div id="menu">
+                <div class="navmenu">
+                Menu
+                </div>
+                <div id="menudropdown">
+                    <a href="product.html">
+                        <div class="navmenu">
+                            Product
+                        </div> 
+                    </a>
+                    <a href="gallery.html">
+                        <div class="navmenu">
+                            Gallery
+                        </div>
+                    </a>
+                    <a href="registerpro.html">
+                        <div class="navmenu">
+                            Reserve
+                        </div>    
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div id="content">
+        <div id="barang">
+            <div id="barang1">
+                <img src="assets/motor1.jpg" alt="">
+                <p>VIXIAN 150CC</p>
+            </div>
+            <div id="barang2">
+                <img src="assets/motor2.jpg" alt="">
+                <p>KAWASAKO 250CC</p>
+            </div>
+        </div>
+        <form action="" method="post">
+            <p>
+                Jenis Kendaraan:
+            </p>
+
+            <label for="vixi">VIXIAN 150CC</label>
+            <input type="radio" name="jenis" id="vixirdbtn">
+            <label for="kawa">KAWASAKO 250CC</label>
+            <input type="radio" name="jenis" id="kawardbtn">
+            <br><br>
+
+        </form>
+            <div id="quantity">
+                <form action="" method="post">
+                    <label for="quantity">Jumlah Barang:</label>
+                    <br>
+                    <input type="number" name="quantity" id="jumlah">
+                    <br>
+                </form>
+            </div>
+            <div id="color">
+                <form action="" method="post">
+                    <label for="warna">Warna:</label>
+                    <br>
+                    <label for="black">Hitam</label>
+                    <input type="radio" name="warna" id="blackrdbtn">
+                    <label for="white">Putih</label>
+                    <input type="radio" name="warna" id="whiterdbtn">
+                    <br><br>
+                </form>
+            </div>
+
+            <div id="data">
+                <p>
+                    Informasi Data Diri
+                </p>
+                <form action="" method="post">
+                    <label for="text">Nama:</label> <br>
+                    <input type="text" name="Username" id="uname"><br>
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" id="emailTxt"><br>
+                    <label for="alamat">Alamat:</label> <br>
+                    <textarea name="Address" id="addtxt" cols="30" rows="10"></textarea>
+                    <br>
+                    <label for="Number">Nomor Telepon:</label> <br>
+                    <input type="number" name="Nomor" id="pnumb"> <br>
+                    <input type="checkbox" name="checkbox" id="Agree"> 
+                    <label for="Agree">Setuju dengan Syarat dan Ketentuan</label> <br><br>
+                    <input type="submit" value="Beli" id="submitBtn"> 
+                    <br><br>       
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="copyright">
+            Copyright by YBike &copy; 2021
+        </div>
+
+        <div id="sosmed">
+            <a href="https://www.instagram.com" target="_blank">
+                    <div id="instagram">
+                    <img src="assets/instagram.png" alt="">
+                </a>
+            </div>
+            <a href="https://www.facebook.com" target="_blank">
+                <div id="fb">
+                    <img src="assets/facebook.png" alt="">
+                </div>
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+                <div id="youtube">
+                    <img src="assets/yt.png" alt="">
+                </div>
+            </a>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

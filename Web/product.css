@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(182, 180, 180);
+    color :#2F496E;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+#logo img{
+    width: 80px;
+}
+
+#navbar{
+    display: flex;
+}
+
+.navmenu{
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.home{
+    padding-right: 10px;
+    padding-top: 3px;
+    font-size: 22px;
+}
+
+.navmenu :hover{
+    background-color: #2F496E;
+    color: rgb(182, 180, 180);
+}
+
+#menudropdown{
+    display: none;
+    position: absolute;
+    background-color:rgb(182, 180, 180) ;
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 3px;
+    right: 0;
+}
+
+#menu {
+    position: relative;
+}
+
+#menu:hover #menudropdown{
+    display: block;
+    background-color: white;
+}
+
+a{
+    color: #2F496E;
+    text-decoration: none;
+}
+
+#content{
+    padding: 15px;
+    Background-color : #2F496E
+    
+}
+
+.down{
+    display: flex;
+    justify-content: space-around;
+    Background-color : #2F496E
+}
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+    Background-color : #2F496E
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.description{
+    margin-top: 5%;
+    margin-left: 23%;
+    margin-bottom: 10%;
+    color: white;
+    font-size: 18px;
+}
+
+.images img{
+    margin-top: 5%;
+    margin-left: 23%;
+    height: 200px;
+    width: 300px;
+}
+
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(182, 180, 180);
+    font-size: 12px;
+    padding: 0 12px;
+}
+
+#sosmed{
+    display: flex;
+}
+
+#instagram img {
+    width: 32px;
+    padding: 3px;
+}
+
+#fb img
+{
+    width: 30px;
+    padding: 3px;
+}
+
+#youtube img
+{
+    width: 34px;
+    padding: 2px;
+}
+
+@media screen and (max-width: 500px) {    
+    .images img{
+        width: 150px;
+        height: 100px;
+    }
+    .title{
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 10%;
+    }
+    .description{
+        margin-top: 5%;
+        margin-left: 23%;
+        margin-bottom: 10%;
+        color: white;
+        font-size: 14px;
+    }
+    
+}
